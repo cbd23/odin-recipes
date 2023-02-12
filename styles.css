@@ -19,7 +19,7 @@
 }
 
 .photo-grid {
-  width: 1400px;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
