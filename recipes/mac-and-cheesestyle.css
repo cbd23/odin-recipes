@@ -1,6 +1,6 @@
 * {
-    color: rgb(33, 33, 33);
-    background-color: rgb(177 210 137);
+    color: rgb(253 252 194);
+    background-color: rgb(191 41 50);
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
@@ -58,7 +58,7 @@
 
 .description-box {
     margin-top: 5px;
-    margin-bottom: 16px;
+    margin-bottom: 20px;
     font-size: 14px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -66,31 +66,10 @@
 }
 
 .ingredients-box {
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    margin: 20px;
     text-align: center;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400; 
-}
-
-.ingredients-title {
-    justify-content: center;
-    text-align: center;
-    margin-top: 62px;
-    margin-bottom: -10px;
-}
-
-.ingredients-main,
-.ingredients-sauce,
-.ingredients-season
-{
-    flex: 1;
-    padding: 40px;
-    margin: 10px;
-    justify-content: space-around;
-    text-align: center;
+    font-weight: 400;    
 }
 
 .steps-box {

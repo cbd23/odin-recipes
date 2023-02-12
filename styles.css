@@ -1,33 +1,56 @@
-.heading1 {
-  background-color: orange;
-  font-family: 'Unbounded', cursive;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(255, 198, 92);
+}
+
+.header {
+  font-family: 'Unbounded', cursive, sans-serif;
   font-size: 46px;
   font-weight: bold;
   text-align: center;
 }
 
-.unordered-main {
-  font-family: 'Unbounded', cursive;
-  font-size: 18px;
-  font-weight: normal;
-  text-align: center;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+.photo-grid-container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }
 
-a:link {
-  text-decoration: none;
-  }
-  
-a:visited {
-  text-decoration: none;
-  }
-  
-a:hover {
-  text-decoration: underline;
-  }
-  
-a:active {
-  text-decoration: underline;
-  }
+.photo-grid {
+  width: 1400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+img {
+  max-width: 40vh;
+}
+
+.photo {
+  flex: 1;
+  margin: 20px;
+}
+
+.item1 {
+  order: 1;
+}
+
+.item2 {
+  order: 2;
+}
+
+.item3 {
+  order: 3;
+}
+
+.item4 {
+  order: 4;
+}
+
+.item5 {
+  order: 5;
+}
