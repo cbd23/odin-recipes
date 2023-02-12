@@ -19,20 +19,24 @@
 }
 
 .photo-grid {
-  width: auto;
+  width: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 img {
-  max-width: 40vh;
+  width: auto;
+  height: 140px;
 }
 
 .photo {
   flex: 1;
   margin: 20px;
+  border: 1px solid red;
+  
 }
 
 .item1 {
